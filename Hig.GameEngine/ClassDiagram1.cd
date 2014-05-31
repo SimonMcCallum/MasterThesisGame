@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hig.GameEngine.Counter">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAggAAAAAA=</HashCode>
+      <FileName>Counter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hig.GameEngine.Game" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAEAgMACAAAkAQAIAFAADABAAABAACAQEAAAAAAAQ=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Hig.GameEngine.Position">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAABQAAAAAAAAAFAAAAAAAAYAA=</HashCode>
+      <FileName>Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hig.GameEngine.GameObjects.Cell">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAIAAAgAAAEAA=</HashCode>
+      <FileName>GameObjects\Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hig.GameEngine.GameObjects.Map">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAhSAAAAABiAAAAEQAQAAAAAgAAIAAAABAAAA=</HashCode>
+      <FileName>GameObjects\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hig.GameEngine.GameObjects.StaticObject">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAggAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\StaticObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hig.GameEngine.GameObjects.Unit">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAIAAAAAAAAAAAAQBAAAAAAAABEAAAAAAEAA=</HashCode>
+      <FileName>GameObjects\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hig.GameEngine.GameObjects.Waypoint">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\Waypoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hig.GameEngine.Graphics.Animation">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAABAAAAAAAAAABAAAAAAAAhQAAAAAAEAA=</HashCode>
+      <FileName>Graphics\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hig.GameEngine.Graphics.PrimitiveBatch" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Hig.GameEngine.Graphics.PrimitiveBatch.Shape" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Graphics\PrimitiveBatch.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AFJAAAAQACAEAAAAAAAAwGAAAAAEEJADAkCEQAAAIAA=</HashCode>
+      <FileName>Graphics\PrimitiveBatch.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Hig.GameEngine.Graphics.Sprite">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAABEABAACAEAAAAAAIAgAAAYAk=</HashCode>
+      <FileName>Graphics\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Hig.GameEngine.Angle">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Hig.GameEngine.Angle.Rotation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Angle.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAQAAIAAAAAAAoAAAAABAAAAABAAIIAgQAgAgAAAAA=</HashCode>
+      <FileName>Angle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Hig.GameEngine.GameObjects.IGameObject">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\IGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

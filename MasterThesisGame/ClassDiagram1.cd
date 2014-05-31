@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MasterThesisGame.FormMain">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>oQIQ0QEUgCCiACqgAACAABwCRAAIEQEIJEACQRgCgCY=</HashCode>
+      <FileName>FormMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterThesisGame.Program" Collapsed="true">
+    <Position X="7" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterThesisGame.SQLGame">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="MasterThesisGame.SQLGame.MapCell" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SQLGame.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QCQEEEgIAQAAAwAEEAUAAIBAAIgAAAAJEMAAABAAAiQ=</HashCode>
+      <FileName>SQLGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterThesisGame.Task">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="MasterThesisGame.Task.MandatoryLexem" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Task.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAgAgIAEAAACAAAAAAAAAABAAACEAAAAA=</HashCode>
+      <FileName>Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hig.Compiler.LexicalAnalysis.Lexer">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAABAAAAgAAAAAAAAAAAAACIAAAoAAA=</HashCode>
+      <FileName>LexicalAnalysis\Lexer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hig.Compiler.LexicalAnalysis.LexerRegexRule" BaseTypeListCollapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LexicalAnalysis\LexerRegexRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Hig.Compiler.LexicalAnalysis.LexerRule" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAIA=</HashCode>
+      <FileName>LexicalAnalysis\LexerRule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MasterThesisGame.Properties.Resources" Collapsed="true">
+    <Position X="8.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterThesisGame.Properties.Settings" Collapsed="true">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MasterThesisGame.UniversalColor">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAACAgAACAAAIAKAEAAQA=</HashCode>
+      <FileName>UniversalColor.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Hig.Compiler.LexicalAnalysis.ShieldSymbols">
+    <Position X="15" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>LexicalAnalysis\ShieldSymbols.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Hig.Compiler.LexicalAnalysis.Token">
+    <Position X="15" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAIAAQAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>LexicalAnalysis\Token.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Hig.Compiler.LexicalAnalysis.ILexerRule">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LexicalAnalysis\ILexerRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hig.Compiler.ISyntaxNode" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LexicalAnalysis\ISyntaxNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
