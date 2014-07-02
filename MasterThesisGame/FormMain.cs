@@ -770,8 +770,11 @@ Let's look at a selection from the 'Entities' table:
 
         private void UpdateLevelText()
         {
-            wbTask.DocumentText = _levels[_currentLevel].Text;
-            wbInfo.DocumentText = _levels[_currentLevel].Info;
+            if (_currentLevel >= 0 && _currentLevel < _levels.Count)
+            {
+                wbTask.DocumentText = _levels[_currentLevel].Text;
+                wbInfo.DocumentText = _levels[_currentLevel].Info;
+            }
         }
 
         private void btnPrev_Click(object sender, EventArgs e)
@@ -785,7 +788,7 @@ Let's look at a selection from the 'Entities' table:
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            //if (CanGoToNextLevel)
+            if (CanGoToNextLevel)
                 NextLevel();
         }
 
