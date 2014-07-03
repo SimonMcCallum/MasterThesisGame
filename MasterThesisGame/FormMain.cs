@@ -64,6 +64,12 @@ namespace MasterThesisGame
 
         private void Init()
         {
+
+            //string connStringCI = "Data Source=GameDB.sdf";
+            //string connStringCS = "Data Source=GameDB.sdf";
+            //SqlCeEngine engine = new SqlCeEngine(connStringCI);
+            //engine.Upgrade(connStringCS);
+
             List<AutocompleteItem> items = new List<AutocompleteItem>();
             var table = SelectData("select distinct Column_name from INFORMATION_SCHEMA.Columns order by Column_name");
 
